@@ -628,9 +628,15 @@ header section {
     justify-content: center;
     align-items: center;
     gap: 2.8rem;
+    background-image: url(./assets/banner/açai-baner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
 }
 .contato h2 {
     font-size: 30px;
+    color: #fff;
 }
 
 .contato form {
@@ -638,9 +644,11 @@ header section {
     border-radius: 10px;
     font-size: 20px;
     padding: 40px;
+    background-color: #ffffff;
 }
 .contato form h2 {
     margin: 15px auto;
+    color: #000;
 }
 .contato form input {
     border: 1px solid black;

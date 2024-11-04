@@ -37,3 +37,13 @@ window.addEventListener("scroll", () => {
     }
     lastScrollY = window.scrollY;
 });
+
+function wpp(){
+    var click = window.document.querySelectorAll(".btn")
+    window.open("https://wa.me/5531991192085?text=Olá,%20gostaria%20de%20mais%20informações%20sobre...")
+}
+
+function insta(){
+    var click = window.document.querySelectorAll(".insta")
+    window.open("https://www.instagram.com/granmaisnatural/")
+}
