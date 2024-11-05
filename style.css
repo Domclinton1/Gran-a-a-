@@ -406,13 +406,13 @@ header section {
 }
 .menu .box-container .box h3 {
     color: var(--main-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 1rem 0;
 
 }
 .menu .box-container .box .price {
     color: #000;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0.5rem 0;
     
 }
@@ -471,13 +471,13 @@ header section {
     }
     .menu .box-container .box h3 {
         color: var(--main-color);
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding: 1rem 0;
     
     }
     .menu .box-container .box .price {
         color: #000;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 0.5rem 0;
         
     }
