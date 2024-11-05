@@ -425,6 +425,10 @@ header section {
     text-decoration: line-through;
     font-weight: lighter;
 }
+.menu .box-container .box .price p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
 
 
 @media screen and (max-width: 450px ) {
