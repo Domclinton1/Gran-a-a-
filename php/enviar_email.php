@@ -9,7 +9,7 @@
   $email = sanitize_input($_POST['email']);
   $celular = sanitize_input($_POST['celular']);
   $mensagem = sanitize_input($_POST['mensagem']);
-  $valor = sanitize_input($_POST['valor']);
+  $empresa = sanitize_input(data: $_POST['empresa']);
   $data_envio = date('d/m/Y');
   $hora_envio = date('H:i:s');
 
@@ -20,7 +20,6 @@
           <p><strong>Nome:</strong> $nome</p>
           <p><strong>E-mail:</strong> $email</p>
           <p><strong>Telemóvel:</strong> $celular</p>
-          <p><strong>Valor desejado:</strong> $valor</p>
           <p><strong>Mensagem:</strong> $mensagem</p>
 
           <hr>
@@ -43,5 +42,5 @@
   mail($destino, $assunto, $arquivo, $headers);
 
   // Redirecionar para a página de agradecimento
-  echo "<meta http-equiv='refresh' content='10;URL=https://dnbluxemburg.com/thanks.html'>";
+  echo "<meta http-equiv='refresh' content='10;URL=https://granmaisnatural.vercel.app/pages/thanks.html'>";
 ?>

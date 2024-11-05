@@ -699,4 +699,96 @@ header section {
     }
     
 }
+
+.review .box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review h2 {
+    font-size: 30px;
+    margin: 20px 0 30px;
+}
+.review .box-container .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: var(--bg);
+    
+}
+.review .box-container .box p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+.review .box-container .box em {
+    color: #fff;
+    font-size: 15px;
+}
+.review .box-container .box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+ @media screen and (max-width: 450px){
+    .review {
+        max-width: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .review .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+ }
  
+ .thanks {
+    background-image: url(./assets/banner/açai-baner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    gap: 1.3rem;
+    
+ }
+ .thanks .btn:nth-child(3){
+    background-color: var(--bg);
+    color: #fff;
+ }
+ .thanks .btn img {
+    color: #fff;
+    
+ }
+
+ .thanks h1 {
+    color: #fff;
+    font-size: 30px;
+ }
+ .thanks p {
+    font-size: 20px;
+    color: var(--bg-white);
+ }
+ .thanks h3 {
+    font-size: 18px;
+    color: var(--main-color);
+ }
+ 
+.thanks-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.svg-white {
+    filter: brightness(0) invert(1);
+}
