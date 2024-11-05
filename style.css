@@ -166,7 +166,10 @@ header section {
     align-items: center;
     min-height: 100vh;
 }
-
+.home-container svg {
+    width: 100%;
+    
+}
 .content {
     max-width: 60rem;
 
@@ -273,6 +276,9 @@ header section {
 .sobre {
     font-size: 20px;
     line-height: 1.5;
+}
+.sobre h2 {
+    margin-top: 150px;
 }
 .sobre h2 span {
     color: var(--main-color);
