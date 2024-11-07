@@ -156,10 +156,19 @@ header section {
 }
 
 .home-container {
-    background: url("./assets/banner/Açaí\ post\ Instagram.png");
+    background: linear-gradient(
+    to right,
+    rgba(0, 128, 0, 0.6), /* Verde escuro semi-transparente na esquerda */
+    rgba(0, 128, 0, 0) 50%, /* Transição para transparente no centro */
+    rgba(0, 128, 0, 0) 50%, /* Centro transparente */
+    rgba(0, 128, 0, 0) /* Verde escuro semi-transparente na direita */
+    ), url("./assets/banner/bowl\ of\ granola\ instagram\ post\ \(1910\ x\ 1080\ px\).png");
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     background-position: center;
     background-size: cover;
+    
 }
 .home-container section {
     display: flex;
@@ -184,12 +193,14 @@ header section {
     width: 20px;
 }
 .content h2 {
-    color: #fff;
+    color: var(--bg-white);
     font-size: 5rem;
+    text-shadow: #000 1px 1px;
 }
 .content h3 {
-    color: var(--bg);
+    color: var(--main-color);
     font-size: 3rem;
+    text-shadow: #000 1px 1px;
 }
 .content p {
     color: #fff;
@@ -211,7 +222,7 @@ header section {
         width: 100%;
     }
     .home-container {
-        background: url("./assets/banner/Açaí\ post\ Instagram.png");
+        background: url("./assets/banner/bowl\ of\ granola\ instagram\ post.png");
         height: 100vh;
         background-position: center;
         background-size: cover;
@@ -237,7 +248,7 @@ header section {
         width: 20px;
     }
     .content h2 {
-        color: #fff;
+        color: #f7c73b;
         font-size: 4rem;
     }
     .content h3 {
@@ -644,7 +655,7 @@ header section {
     justify-content: center;
     align-items: center;
     gap: 2.8rem;
-    background-image: url(./assets/banner/açai-baner.png);
+    background-image: url("./assets/banner/bowl\ of\ granola\ instagram\ post\ \(1910\ x\ 1080\ px\)\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -652,7 +663,7 @@ header section {
 }
 .contato h2 {
     font-size: 30px;
-    color: #fff;
+    color: #000;
 }
 
 .contato form {
