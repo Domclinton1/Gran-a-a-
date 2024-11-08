@@ -21,6 +21,7 @@
 }
 .wave {
     background-color: #ffffff;
+    z-index: -1;
 }
 body {
     background-color: var(--bg);
@@ -201,6 +202,7 @@ header section {
     color: var(--main-color);
     font-size: 3rem;
     text-shadow: #000 1px 1px;
+    
 }
 .content p {
     color: #fff;
