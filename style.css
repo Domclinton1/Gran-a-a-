@@ -568,10 +568,21 @@ header section {
         display: flex;
         flex-direction: column;
         padding: 10px;
+        justify-content: center;
     }
     .footer-info {
         max-width: 450px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-info:nth-child(2) p{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
     }
 }
 
