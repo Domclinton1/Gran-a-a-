@@ -42,5 +42,5 @@
   mail($destino, $assunto, $arquivo, $headers);
 
   // Redirecionar para a página de agradecimento
-  echo "<meta http-equiv='refresh' content='10;URL=https://granmaisnatural.vercel.app/pages/thanks.html'>";
+  echo "<meta http-equiv='refresh' content='10;URL=https://granatural.com.br/pages/thanks.html'>";
 ?>
